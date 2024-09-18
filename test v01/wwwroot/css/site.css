@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body.home-page {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background: url(https://img.freepik.com/premium-vector/abstract-gradient-pink-purple-stripes-gradient-dark-purple-pink-background_35756-153.jpg?w=996) no-repeat center center fixed;
+    background-size: cover; /* Faz com que a imagem cubra toda a área */
+    color: #ffffff; /* Cor do texto */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin-top: 1px; /* Espaçamento acima do título */
+    margin-bottom: 10px;
+    font-size: 12em; /* Tamanho da fonte para o título */
+    font-family: 'Abhaya Libre', serif;
+    font-weight: bold;
+}
+
+p {
+    margin-bottom: 1px; /* Espaçamento abaixo do parágrafo */
+    font-size: 1.5em; /* Tamanho da fonte para o parágrafo */
+}
+
+
+.buttons-top {
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    display: flex;
+    z-index: 10;
+    background-color: rgb(122, 49, 123);
+}
+
+.button-top {
+    background-color: rgb(122, 49, 123);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font: bold 1em 'Inter', sans-serif;
+    transition: background-color 0.3s;
+    text-align: center;
+}
+
+ .button-top:hover {
+        background-color: rgba(129, 0, 161, 1);
+  }
